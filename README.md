@@ -8,3 +8,24 @@ As part of a larger mac-os application that I developed, I wrote an HTML and CSS
 
 ## Goal
 While the JS version works, it is very complex and not very fast. As the requirements were specific to my team's internal needs, there is a lot of complicated conditionals to translate specific elements to our design language (currently HAML). My goal with this Go project is to extract the parsing logic from the translation logic and speed up the parsing process significantly while also producing a parser that is user agnostic (applicable to any user or enterprise). I guess we'll find out how that turns out later on. Stay tuned! 
+
+## Get Started
+Clone Repo:
+`git clone https://github.com/mattkloz/goparser.git`
+
+### Open Your Terminal
+
+Command to Initialize Go Project:
+`go mod init yourguthub.com/goparser`
+
+If Asked to add Tidy:
+`go get Tidy`
+
+Command to Install all Project Dependencies:
+`go get ./...`
+
+Command to Build Project:
+`go build`
+
+Command to Run Project:
+`./goparser`
